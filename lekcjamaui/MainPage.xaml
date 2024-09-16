@@ -29,20 +29,23 @@
                 Text="Podaj hasło:"
                 TextColor="Black"
                 />
-            <Editor
+            <Entry
                 TextColor="Black"
                 BackgroundColor="LightGray"
+                IsPassword="True"
                 x:Name="password"
                 />
             <Label
                 Text="Powtórz hasło:"
                 TextColor="Black"
                 />
-            <Editor
+            <Entry
                 TextColor="Black"
                 BackgroundColor="LightGray"
-                x:Name="password2"
+                IsPassword="True"
+                x:Name="password2" 
                 />
+
             <Button
                 Text="Zatwierdź"
                 TextColor="Black"
