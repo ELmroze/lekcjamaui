@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lekcjamaui.MainPage">
+
+    <ScrollView>
+        <StackLayout
+            Spacing="5"
+            BackgroundColor="White"
+            >
+            <Label
+                HorizontalOptions="Fill"
+                Text="Rejestruj konto"
+                BackgroundColor="#008080"
+                TextColor="White" 
+                FontSize="Large"
+                />
+            
+            <Label
+                Text="Podaj e-mail:"
+                TextColor="Black"
+                />
+            <Editor
+                TextColor="Black" 
+                BackgroundColor="LightGray"
+                x:Name="mail"
+                />
+            <Label
+                Text="Podaj hasło:"
+                TextColor="Black"
+                />
+            <Editor
+                TextColor="Black"
+                BackgroundColor="LightGray"
+                x:Name="password"
+                />
+            <Label
+                Text="Powtórz hasło:"
+                TextColor="Black"
+                />
+            <Editor
+                TextColor="Black"
+                BackgroundColor="LightGray"
+                x:Name="password2"
+                />
+            <Button
+                Text="Zatwierdź"
+                TextColor="Black"
+                BackgroundColor="LightGrey"
+                HorizontalOptions="Center"
+                WidthRequest="200"
+                CornerRadius="0"
+                Clicked="zatwierdz"
+                />
+            <Label
+                TextColor="Black"
+                x:Name="odpowiedz"
+                />
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
